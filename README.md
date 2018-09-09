@@ -8,9 +8,7 @@
   ```bash
   python3 -m venv venv
   source venv/bin/activate
-  ```
   # Enter folder
-  ```bash
   python filename.py
   ```
 
