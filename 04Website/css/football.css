@@ -1,0 +1,46 @@
+/*clear original CSS*/
+body{width:100%;height:auto;margin:0;font-size:12px; padding:0;  font-size:12px; font-family: Helvetica, Verdana, Arial,  sans-serif; color:#444444; text-align: left; background-color:#fff;}
+img{ border:0; margin:0; padding:0}
+form{ margin:0; padding:0}
+ul{ margin:0; padding:0; list-style-type:none}
+li{ margin:0; padding:0; list-style-type:none}
+dl{ margin:0; padding:0; list-style-type:none}
+dt{ margin:0; padding:0; list-style-type:none}
+dd{ margin:0; padding:0; list-style-type:none}
+p{ margin:0; padding:0}
+input{ margin:0; padding:0; vertical-align:middle}
+select{ margin:0; padding:0; vertical-align:middle}
+a, a:link { color: #848484; text-decoration: none; }
+a:visited {}
+a:active, a:hover { text-decoration: none; color: #81b542; }
+a:focus { outline: none; }
+span { margin:0; padding:0;}
+h1,h2,h3 { margin:0; padding:0;}
+h2 {font-size:14px; font-weight:normal;}
+ul,li {list-style-type:none; text-transform:capitalize;}
+dl,dt,dd {list-style-type:none; text-transform:capitalize; margin:0; padding:0;}
+.clear {clear:both; *display:inline;/*IE only*/}
+button {border:0 none;background-color:transparent;cursor:pointer}
+tr,td,th {margin: 0; padding: 0; list-style-type:none; text-decoration: none; text-align:left; font-size: 18px;}
+tr{height: 40px;}
+th{width: 140px;}
+input{ height: 28px;}
+.fl{float: left}
+.h30{height: 30px;}
+.cg{color: #81b542}
+
+
+/*3Djs*/
+#first{
+    background-color: aliceblue;
+}
+
+.visualization_Container{
+    padding: 30px;
+}
+
+.btn{
+    width:100px;
+    height:40px;
+    outline:none;
+}
