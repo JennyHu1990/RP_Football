@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 headers = ["name", "date_of_birth", "place_of_birth", "team", "season", "season_start_year", "season_end_year"]
-make_csv = open('../FinalData/Italy.csv', 'w')
+make_csv = open('Italy.csv', 'w')
 write_csv = csv.writer(make_csv, lineterminator='\n')
 write_csv.writerow(headers)
 
@@ -31,7 +31,7 @@ for team_href in team_hrefs:
     season_url_r = requests.get(season_url)
     season_url_soup = BeautifulSoup(season_url_r.text, 'lxml')
     season_url_table = season_url_soup.find("table", class_="standard_tabelle", cellpadding="3", cellspacing="1")
-    season_url_trs = season_url_table.find_all("tr", limit=27)
+    season_url_trs = season_url_table.find_all("tr", limit=44)
     for season_url_tr in season_url_trs:
         season_url_tds = season_url_tr.find_all("td")
         season = season_url_tds[1].text
