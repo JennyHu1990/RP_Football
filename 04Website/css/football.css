@@ -28,13 +28,46 @@ input{ height: 28px;}
 .fl{float: left}
 .h30{height: 30px;}
 .cg{color: #81b542}
+/*Setting*/
+p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: #4a4a4a;
+    padding-bottom: 4px
+}
+
+h1{
+    font-family: "Times New Roman";
+    font-size: 28px;
+    margin: auto;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    padding-bottom: 20px; }
+
+h2{
+    font-family: "Times New Roman";
+    font-size: 22px;
+    margin: auto;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    font-style: italic;}
+
+.partContainer{
+    width: 800px;
+    margin-top: 20px;
+    position: relative;
+    left: 240px;
+}
 
 
 /*3Djs*/
-#first{
-    background-color: aliceblue;
-}
-
 .visualization_Container{
     padding: 30px;
 }
@@ -42,5 +75,23 @@ input{ height: 28px;}
 .btn{
     width:100px;
     height:40px;
+    background-color : #4CAF50;
+    color : white;
+    border: none;
     outline:none;
+    font-size: 14px;
+}
+
+#timer{
+    font-size: 40px;
+    line-height: 1.4;
+    margin-left: 30px;
+}
+
+/*tableau*/
+.tableauPlaceholder{
+    width: 600px;
+    position: absolute;
+    left: 240px;
+    top: 10px
 }
