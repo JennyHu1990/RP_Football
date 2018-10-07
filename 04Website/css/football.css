@@ -28,6 +28,8 @@ input{ height: 28px;}
 .fl{float: left}
 .h30{height: 30px;}
 .cg{color: #81b542}
+.c1{color:white}
+.c2{color: #bbbbbb}
 /*Setting*/
 p{
     font-size: 17px;
@@ -68,9 +70,6 @@ h2{
 
 
 /*3Djs*/
-.visualization_Container{
-    padding: 30px;
-}
 
 .btn{
     width:100px;
@@ -80,10 +79,11 @@ h2{
     border: none;
     outline:none;
     font-size: 14px;
+    margin-right:10px;
 }
 
 #timer{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.4;
     margin-left: 30px;
 }
@@ -94,4 +94,23 @@ h2{
     position: absolute;
     left: 240px;
     top: 10px
+}
+
+.footer{
+    height: 180px;
+    margin-top:60px;
+    padding-top: 80px;
+    background-color: #333333;
+    font-size:20px;
+}
+.stuInform{
+    margin-left: 280px;
+    width: 600px;
+}
+
+.stuInform p{
+    font-size: 20px;
+    display: inline;
+    width: 40px;
+
 }
