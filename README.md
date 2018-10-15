@@ -23,14 +23,14 @@
   
 # 3. Data process
 
-  3.1 Washing requirements:
+  ## 3.1 Washing requirements:
   
       None value in birth_country
       Season_start_year which is none or before 1980
       Change the country name to the reference table
       Change birth_country:Scotland, England,... to United Kingdom
       
-  3.2 Reference table
+  ## 3.2 Reference table
   
       Longtitude and ALtittude of each cournty
       The officaal Lanuage
@@ -40,7 +40,7 @@
 # 4. Website
   
   Language:HTML,CSS,Javascript, json
-  Library & Tools:3Djs,Tabealue
+  Library & Tools:3Djs,Tabealue, RAWGraph
   
   
       
