@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
+<!--
+    import js library
+-->
+
     <meta charset="UTF-8">
     <title>Research Project</title>
     <link rel="stylesheet" href="./css/football.css" type="text/css" />
@@ -13,10 +17,18 @@
     <script src="./js/jquery-latest.min.js"></script>
 </head>
 <body>
+<div class="header">
+    <img src="img/football.png" width="140px" height="140px">
+    <div class="title">
+        FOOTBALL PLAYER MIGRATION MOVEMENT</br>
+        <p>The exploration of why England Premier League has attracted more foreign players than other leagues</p>
+    </div>
+
+</div>
 <div class="partContainer">
     <h1>Introduction</h1>
     <p>
-        "This project focus on exploring the reason of why England Premier League has attracted more foreign players than other famous football leagues
+        This project focus on exploring the reason of why England Premier League has attracted more foreign players than other famous football leagues
         La Liga, Bundesliga, French Ligue1 and Serie A. For providing sufficient evidence towards the study, the project team has scraped and
         collected the data of more than 160,000 worldwide football players and their birth places, nationalities, and the league they are playing for.
         <br>
@@ -29,22 +41,25 @@
         <br>
         <br>
         All the data would be provided as a visualized format, the project team believes that the visualization of various data could provide a deeper insight
-        towards the football player migration movement"
+        towards the football player migration movement.
     </p>
 </div>
+<!--
+create the div and the button to control the animation
+-->
 <div style="padding-left: 70px; margin-top: 20px" id="overview1">
     <div style="float: right; margin-right: 40px;">
         <p class="small-text" id="timer" >1975</p>
         <div>
-            <input type="button" id="worldMapRun" value="Run" class="btn">
-            <input type="button" id="worldMapReset" value="Reset" class="btn">
+            <input type="button" id="Run" value="Run" class="btn">
+            <input type="button" id="Reset" value="Reset" class="btn">
         </div>
     </div>
 </div>
 <div class="partContainer">
     <p>
-        "The following geographical visualization shows the home countries of the players that playing for these 5 leagues. The size of the bubble chart
-        is in direct proportion to the number of players."
+        The following geographical visualization shows the home countries of the players that playing for these 5 leagues. The size of the bubble chart
+        is in direct proportion to the number of players..
     </p>
 </div>
 <div style="margin-left: 100px;" id="testworld">
@@ -55,7 +70,7 @@
 <h1 style="display: block;">Economy</h1>
     <h2>ANNUAL GDP GROWTH</h2>
     <p>
-        "The area chart below shows the annual GDP growth from 1975 to 2017 among France, Germany, Italy, Spain and UK which have 5 most famous football leagues worldwide. The data comes from the World Development Indicators and the latest updated time was 21/9/2018"
+        The area chart below shows the annual GDP growth from 1975 to 2017 among France, Germany, Italy, Spain and UK which have 5 most famous football leagues worldwide. The data comes from the World Development Indicators and the latest updated time was 21/9/2018.
     </p>
 </div>
 <div class="tableauPlaceholder" id="viz1537935560101">
@@ -90,7 +105,7 @@
 <div class="partContainer" style="margin-top: 30px;">
     <h2 style="margin-top: 40px;">Annual GDP per Capita</h2>
     <p>
-        "The second area chart below shows the annual GDP per person from 1975 to 2017 among France, Germany, Italy, Spain and UK. The data also comes from the World Development Indicators and the latest updated time was 21/9/2018"
+        The second area chart below shows the annual GDP per person from 1975 to 2017 among France, Germany, Italy, Spain and UK. The data also comes from the World Development Indicators and the latest updated time was 21/9/2018.
     </p>
 </div>
 <div class="tableauPlaceholder" id='viz1537933317112'>
@@ -127,7 +142,7 @@
 <div class="partContainer" style="margin-top: 40px;">
     <h2>Wages</h2>
     <p>
-        "The line graph below shows the annual football players average wage in the five most popular leagues: Premier League, La Liga, Ligue 1, Serie A and Bundesliga. The data comes from Statista(2018), however, because of these required data comes from various sources and there was not a professional institute to summarize these data collectively, the project team had to collect the data from existing literature reviews or newspapers. Hence, the time span of data is only from 2014 to 2017 thought it is possibly not convincing enough"
+        The line graph below shows the annual football players average wage in the five most popular leagues: Premier League, La Liga, Ligue 1, Serie A and Bundesliga. The data comes from Statista(2018), however, because of these required data comes from various sources and there was not a professional institute to summarize these data collectively, the project team had to collect the data from existing literature reviews or newspapers. Hence, the time span of data is only from 2014 to 2017 thought it is possibly not convincing enough.
     </p>
 </div>
 <div class='tableauPlaceholder' id='viz1537676136200'>
@@ -165,8 +180,8 @@
     <h1 style="display: block;">Culture</h1>
     <h2>Colony</h2>
     <p>
-        "The Alluvial diagram below shows the trend of global football players migration trend regarding the colonization situation. The left side presents the birth places of players which were colonized by Germany, UK, France, Spain, Italy and other countries. The right side is the countries of these 5 biggest leagues.
-        However, because there is no colonization record after 1945, the project team decides to set the start point of time in 1900, because the effect of colonization is a long-term result."
+        The Alluvial diagram below shows the trend of global football players migration trend regarding the colonization situation. The left side presents the birth places of players which were colonized by Germany, UK, France, Spain, Italy and other countries. The right side is the countries of these 5 biggest leagues.
+        However, because there is no colonization record after 1945, the project team decides to set the start point of time in 1900, because the effect of colonization is a long-term result.
     </p>
 </div>
 <div align="center">
@@ -195,8 +210,8 @@
 <div class="partContainer" style="margin-top: 40px;">
     <h2>Language</h2>
     <p>
-        "The following packed bubbles shows the statistics about the national language of the foreign players' home countries who used to play for the clubs in these five leagues from 1975 to 2017.
-        The data about official languages of different countries comes from Wikipedia"
+        The following packed bubbles shows the statistics about the national language of the foreign players' home countries who used to play for the clubs in these five leagues from 1975 to 2017.
+        The data about official languages of different countries comes from Wikipedia.
     </p>
 </div>
 <div class='tableauPlaceholder' id='viz1538628785731'>
@@ -228,7 +243,11 @@
 <div class="partContainer" style="margin-top: 80px;">
     <h2>Future Work</h2>
     <p>
-        "The line graph below shows the annual football players average wage in the five most popular leagues: Premier League, La Liga, Ligue 1, Serie A and Bundesliga. The data comes from Statista(2018), however, because of these required data comes from various sources and there was not a professional institute to summarize these data collectively, the project team had to collect the data from existing literature reviews or newspapers. Hence, the time span of data is only from 2014 to 2017 thought it is possibly not convincing enough"
+        At the present stage, the project team just explore the reasons of the football players migration trend in economic and cultural factors. However, there are also some other important factors that the team should consider about. For example, some governments’ regulations and immigration policies are also decisive conditions for players to make their choices. Also, some geographical and natural conditions should also be included such as the weather condition of the country, the distance from players’ homelands and so on.
+        <br><br>
+        In addition, when the team created the geographical diagram to show the migration trend, the longitude and latitude of the map can be set in the measures of cities rather than countries. This change can provide more precise analyses towards the topic even though a load of data should be collected such as the cities that football players were born in.
+        <br><br>
+        In conclusion, in the future, the project team should focus more on broadening the research dimension, providing multi-aspect insights into the topic, so that the analysis can be more comprehensive and convincing.
     </p>
 </div>
 <div class="footer">
@@ -311,7 +330,7 @@
 
             var reset = "false";
 
-            function europeTime(k)
+            function clickTime(k)
             {
 
                 var svg = d3.select("body").select("#overview1").select("svg")
@@ -353,7 +372,7 @@
                         function() {
                             if (reset == "false") {
                                 k = k + 2;
-                                europeTime(k)
+                                clickTime(k)
                             } else {
                                 Counter = 0;
                             }
@@ -363,12 +382,12 @@
 
             }
 
-            d3.select('#worldMapRun').on('click', function() {
+            d3.select('#Run').on('click', function() {
                 reset = "false";
-                europeTime(1)
+                clickTime(1)
             });
 
-            d3.select('#worldMapReset').on('click', function() {
+            d3.select('#Reset').on('click', function() {
                 reset = "true";
                 d3.select("body").select("#overview1").selectAll("circle").remove();
                 Counter = 0;
